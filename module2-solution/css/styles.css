@@ -1,37 +1,49 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
   }
 
   h1 {
-    color: white;
+    font-size: 3em;
     text-align: center;
+    padding: 20px;
+    color: #EF8354;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+
+  span {
+    border: 2px solid #4F5D75;
     padding: 10px;
+    margin-right: 10px;
   }
 
   body {
-    background-color: #202023;
+    background: #2D3142;
+    font-family: 'Raleway', sans-serif;
   }
 
   .block {
-    border: 1px solid black;
-    border-radius: 20px;
-    background: #999999;
+    border: 3px solid #1f1f23;
+    background: #828c9e;
     margin: 20px;
+    overflow: hidden;
+    height: 20%;
+  }
+
+  .block:hover {
+    cursor: pointer;
   }
   
   .block-content {
     float: left;
     padding: 10px;
     padding-top: 0;
-    padding-bottom: 0;
-    margin: 10px;
+    margin: 20px;
   }
 
   .block-title {
     text-align: right;
-    border: 3px solid #202124;
-    border-radius: 0px 20px 0px 20px;
+    border: 3px solid #1f1f23;
     float: right;
     flex-flow: row;
     margin: 0;
@@ -39,32 +51,26 @@
     padding-left: 50px;
     padding-right: 50px;
     margin-right: -3px;
-    margin-right: -3px;
+    margin-top: -2px;
     font-size: 20px;
   }
 
   #bt1 {
-    background-color: #d59898;
+    background-color: #DC6976;
   }
 
   #bt2 {
-    background-color: #c14543;
+    background-color: #B0608C;
   }
 
   #bt3 {
-    background-color: #e5d198;
+    background-color: #795D8D;
   }
   
   @media (min-width: 992px) {
     .col-lg-4 {
       float: left;
       width: 33.33%;
-    }
-    .block {
-      height: 180px;
-    }
-    .block-content {
-      margin-top: 20px;
     }
   }
   
@@ -78,9 +84,6 @@
     .col-md-12 {
       width: 100%;
     }
-    .block {
-      height: 150px;
-    }
   }
 
   @media (max-width: 767px) {
@@ -88,11 +91,4 @@
       float: left;
       width: 100%;
     }
-    .block {
-      height: 200px;
-    }
-    .block-content {
-      padding-top: 8px;
-    }
   }
-  
