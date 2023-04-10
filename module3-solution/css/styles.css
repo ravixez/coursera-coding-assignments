@@ -1,21 +1,47 @@
-
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  
+body {
+    font-family: 'Kanit', sans-serif;
+}
+.navbar {
+    background-color: #999999;
+    padding: 10px 2px;
+    margin-top: -1px;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-size: 1.2em;
 }
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 3em;
+    margin-left: 5vw;
 }
 
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  
+div h2 {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-size: 3em;
+}
+
+section div h4 {
+    font-size: 1.5em;
+    margin: 10px 0px 20px;
+}
+
+.row {
+    background-color: #999999;
+    font-size: 1.2em;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+#main-content {
+    width: 90%;
+}
+
+button.navbar-toggle.collapsed {
+    position: absolute;
+    float: right;
+    right: 0;
 }
